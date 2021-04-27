@@ -6,25 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidzaratel/REST-API.git"
-  },
   "keywords": [
     "restapi"
   ],
   "author": "dzarate, krugerio, imejia, alopez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/davidzaratel/REST-API/issues"
-  },
-  "homepage": "https://github.com/davidzaratel/REST-API#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^5.22.4"
+    "sequelize": "^5.12.3",
+    "sequelize-cli": "^6.2.0"
   }
 }
